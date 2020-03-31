@@ -1,1 +1,14 @@
 /* Base */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 480px;
+    height: 100vh; 
+}
+
+main {
+    height: 71vh;
+}
