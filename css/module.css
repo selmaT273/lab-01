@@ -1,5 +1,10 @@
 /* Module */
-
+p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
 header {
     background-color: lightblue;
     border: 1px solid black;
@@ -46,7 +51,10 @@ footer {
 }
 
 @media (min-width: 767px) {
-    /* body {}  */
+    body {
+        margin: 0 auto;
+    } 
+   
     header {
         background-color: pink;
     }
@@ -64,6 +72,7 @@ footer {
         float: left;
         width: 40%;
         height: 44.4%;
+        text-align: center;
     }
     .d {
         background-color: pink;
