@@ -50,10 +50,16 @@ footer {
     border: 1px solid black;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     body {
         margin: 0 auto;
     } 
+
+    div.wrapper {
+        height: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
    
     header {
         background-color: pink;
