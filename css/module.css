@@ -45,11 +45,65 @@ footer {
     border: 1px solid black;
 }
 
-@media (min-width: 960px) {
-    body { background: pink; 
-    Div {float: left;}
-    Footer {clear: both;}
+@media (min-width: 767px) {
+    /* body {}  */
+    header {
+        background-color: pink;
     }
-    @media (min-width: 1200) {
-    Body { background: turquoise }
-    
+    main {
+        height: 64.2vh;
+    }
+    aside {
+        background-color: pink;
+        float: left; 
+        width: 20%; 
+        height: 85.7%;
+    }
+    .c {
+        background-color: pink;
+        float: left;
+        width: 40%;
+        height: 44.4%;
+    }
+    .d {
+        background-color: pink;
+        float: right;
+        width: 40%;
+        height: 44.4%;
+    }
+
+    .e {
+        background-color: pink;
+        display: inline-block;
+        width: 19.6%;
+        height: 55.5%;
+    }
+
+    .f {
+        background-color: pink;
+        display: inline-block;
+        width: 19.6%;
+        height: 55.5%;
+    }
+
+    .g {
+        background-color: pink;
+        display: inline-block;
+        width: 19.6%;
+        height: 55.5%;
+    }
+
+    .h {
+        background-color: pink;
+        display: inline-block;
+        width: 19.6%;
+        height: 55.5%;
+    }
+
+    footer {
+        background-color: pink;
+        width: 80%;
+        float: right;
+        height: 21.4%
+    }
+}
