@@ -1,1 +1,15 @@
 /* Base */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+    min-width: 480px;
+    height: 100vh; 
+}
+
+main {
+    height: 71vh;
+}

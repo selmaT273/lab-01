@@ -1,1 +1,55 @@
 /* Module */
+
+header {
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+aside {
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.c {
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.d {
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.e {
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.f {
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.g {
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.h {
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+footer {
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+@media (min-width: 960px) {
+    body { background: pink; 
+    Div {float: left;}
+    Footer {clear: both;}
+    }
+    @media (min-width: 1200) {
+    Body { background: turquoise }
+    
