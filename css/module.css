@@ -62,6 +62,7 @@ footer {
     }
    
     header {
+        height: 14%;
         background-color: pink;
     }
     main {
@@ -90,28 +91,28 @@ footer {
     .e {
         background-color: pink;
         display: inline-block;
-        width: 19.6%;
+        width: 20%;
         height: 55.5%;
     }
 
     .f {
         background-color: pink;
         display: inline-block;
-        width: 19.6%;
+        width: 20%;
         height: 55.5%;
     }
 
     .g {
         background-color: pink;
         display: inline-block;
-        width: 19.6%;
+        width: 20%;
         height: 55.5%;
     }
 
     .h {
         background-color: pink;
         display: inline-block;
-        width: 19.6%;
+        width: 20%;
         height: 55.5%;
     }
 
