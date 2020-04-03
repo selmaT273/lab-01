@@ -50,69 +50,78 @@ footer {
     border: 1px solid black;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     body {
         margin: 0 auto;
     } 
+
+    div.wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: auto;
+        height: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
    
     header {
+        width: 100vw;
+        height: 14%;
         background-color: pink;
     }
     main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: auto;
         height: 64.2vh;
     }
+
     aside {
         background-color: pink;
-        float: left; 
         width: 20%; 
         height: 85.7%;
     }
     .c {
         background-color: pink;
-        float: left;
-        width: 40%;
+        width: 50%;
         height: 44.4%;
-        text-align: center;
     }
     .d {
         background-color: pink;
-        float: right;
-        width: 40%;
+        width: 50%;
         height: 44.4%;
     }
 
     .e {
         background-color: pink;
-        display: inline-block;
-        width: 19.6%;
+        width: 25%;
         height: 55.5%;
     }
 
     .f {
         background-color: pink;
-        display: inline-block;
-        width: 19.6%;
+        width: 25%;
         height: 55.5%;
     }
 
     .g {
         background-color: pink;
-        display: inline-block;
-        width: 19.6%;
+        width: 25%;
         height: 55.5%;
     }
 
     .h {
         background-color: pink;
-        display: inline-block;
-        width: 19.6%;
+        width: 25%;
         height: 55.5%;
     }
 
     footer {
+        
         background-color: pink;
         width: 80%;
-        float: right;
         height: 21.4%
     }
 }
