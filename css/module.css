@@ -53,16 +53,16 @@ footer {
 @media (min-width: 768px) {
     body {
         margin: 0 auto;
+        height: 100%;
+        max-width: 960px;
     } 
 
     div.wrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         flex: auto;
-        height: 100%;
-        max-width: 960px;
-        margin: 0 auto;
+
     }
    
     header {
@@ -70,7 +70,7 @@ footer {
         height: 14%;
         background-color: pink;
     }
-    main {
+    .secondWrapper {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -83,6 +83,7 @@ footer {
         width: 20%; 
         height: 85.7%;
     }
+    
     .c {
         background-color: pink;
         width: 50%;
@@ -119,9 +120,8 @@ footer {
     }
 
     footer {
-        
+        width: 80vw;
         background-color: pink;
-        width: 80%;
         height: 21.4%
     }
 }

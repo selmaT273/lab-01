@@ -16,7 +16,7 @@ aside {
     height: 14%;
 }
 
-main {
+.secondWrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
