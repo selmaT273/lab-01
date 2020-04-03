@@ -56,22 +56,29 @@ footer {
     } 
 
     div.wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: auto;
         height: 100%;
         max-width: 960px;
         margin: 0 auto;
     }
    
     header {
+        width: 100vw;
         height: 14%;
         background-color: pink;
     }
     main {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
+        flex: auto;
         height: 64.2vh;
     }
+
     aside {
-        float: left;
         background-color: pink;
         width: 20%; 
         height: 85.7%;
@@ -80,7 +87,6 @@ footer {
         background-color: pink;
         width: 50%;
         height: 44.4%;
-        text-align: center;
     }
     .d {
         background-color: pink;
@@ -113,6 +119,7 @@ footer {
     }
 
     footer {
+        
         background-color: pink;
         width: 80%;
         height: 21.4%
